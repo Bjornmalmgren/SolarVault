@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/bjmall-3-local/Documents/GitHub/SolarVault/SolarVault/Content/FirstPerson/Blueprints/BP_SunManager.uasset",
+				"C:/Users/bjmall-3-local/Documents/GitHub/SolarVault/SolarVault/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/bjmall-3-local/Documents/GitHub/SolarVault/SolarVault/Content/Input/IMC_Default.uasset"
+			]
+		}
+	]
+}
