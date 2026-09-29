@@ -3,6 +3,8 @@ class ASunSphereManager :AActor{
     
     UPROPERTY()
     TSubclassOf<ASunSphere> sphere;
+    UPROPERTY()
+    ANiagaraActor BallExplosion;
     ASunSphere SunSphere; 
     FDestroyEvent DestorySphere;
     UFUNCTION(BlueprintOverride)
@@ -19,6 +21,7 @@ class ASunSphereManager :AActor{
         if(!Hit){
             DestorySphere.Broadcast();
             //destoy and respawn
+            SpawnActor(BallExplosion,SunSphere.ActorLocation, FRotator::ZeroRotator,NAME_None);
             SunSphere.DestroyActor();
             SunSphere = SpawnActor(sphere,FVector(390.0,-30.0,100.0), FRotator::ZeroRotator,NAME_None);
         }
