@@ -1,3 +1,5 @@
+
+event void FGrabEvent(UPhysicsHandleComponent PhysicsHandle);
 class ASunManager : AActor{
     UPROPERTY(DefaultComponent)
     USceneComponent SceneRoot;
@@ -5,22 +7,25 @@ class ASunManager : AActor{
     UPROPERTY()
     ADirectionalLight DirLight;
 
+    FGrabEvent GrabEvent;
     float angle = 0.0f;
     float radius = 5000.0f;
     float centerX = 0.0f;
     float centerY = 0.0f;
     float speed = 0.005f;
+
+    float LastTriggeredTime = 0;
     UFUNCTION()
     void OnEPressed() {
         Spin(1);
     }
     UFUNCTION()
     void OnQPressed() {
-            Spin(-1);
+        Spin(-1);
     }
     UFUNCTION()
-    void OnLeftMousePressed() {
-            Print("LM");
+    void OnLeftMousePressed(UPhysicsHandleComponent PhysicsHandle) {
+        GrabEvent.Broadcast(PhysicsHandle);
     }
     
     void Spin(int Direction){
