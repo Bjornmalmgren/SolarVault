@@ -1,6 +1,6 @@
 class APhysicsManager : AActor{
     
-    float32 GrabDistance = 100;
+    float32 GrabDistance = 200;
 
     
     ACharacter Player;
