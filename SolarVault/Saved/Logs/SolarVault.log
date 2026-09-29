@@ -2225,3 +2225,66 @@ Sampler Limit: 32
 [2026.09.29-07.33.38:968][316]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.09.29-07.33.38:968][316]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.09.29-07.33.38:968][316]AssetCheck: /Game/Level/Lvl_Prototype Validating asset
+[2026.09.29-07.39.35:421][586]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2439.955322
+[2026.09.29-07.39.36:421][589]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.29-07.39.36:421][589]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2440.621826, Update Interval: 306.745819
+[2026.09.29-07.42.16:697][122]Cmd: POLY SELECT ADJACENT WALLS
+[2026.09.29-07.43.39:326][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.09.29-07.43.39:328][477]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Lvl_Prototype' took 0.021
+[2026.09.29-07.43.39:328][477]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_BaseColor] ([1] browsable assets)...
+[2026.09.29-07.43.39:336][477]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_BaseColor.MarbleOrb_DefaultMaterial_BaseColor]
+[2026.09.29-07.43.39:336][477]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_BaseColor]
+[2026.09.29-07.43.39:348][477]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_BaseColor_Auto2
+[2026.09.29-07.43.39:348][477]LogSavePackage: Moving '../../../../../../Projects/SolarVault/SolarVault/Saved/MarbleOrb_DefaultMaterial_BaseCoA69F6AC14AB080443057CB890CCC8B2D.tmp' to '../../../../../../Projects/SolarVault/SolarVault/Saved/Autosaves/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_BaseColor_Auto2.uasset'
+[2026.09.29-07.43.39:349][477]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_Normal] ([1] browsable assets)...
+[2026.09.29-07.43.39:351][477]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_Normal.MarbleOrb_DefaultMaterial_Normal]
+[2026.09.29-07.43.39:351][477]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_Normal]
+[2026.09.29-07.43.39:362][477]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_Normal_Auto2
+[2026.09.29-07.43.39:362][477]LogSavePackage: Moving '../../../../../../Projects/SolarVault/SolarVault/Saved/MarbleOrb_DefaultMaterial_Normal277BC49149689959768D359F7BDF43E8.tmp' to '../../../../../../Projects/SolarVault/SolarVault/Saved/Autosaves/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_Normal_Auto2.uasset'
+[2026.09.29-07.43.39:364][477]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2026.09.29-07.43.39:367][477]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic.MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic]
+[2026.09.29-07.43.39:367][477]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic]
+[2026.09.29-07.43.39:377][477]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic_Auto2
+[2026.09.29-07.43.39:377][477]LogSavePackage: Moving '../../../../../../Projects/SolarVault/SolarVault/Saved/MarbleOrb_DefaultMaterial_OcclusCF338C054E416B2DA17E6C94DB9CFC79.tmp' to '../../../../../../Projects/SolarVault/SolarVault/Saved/Autosaves/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic_Auto2.uasset'
+[2026.09.29-07.43.39:378][477]LogFileHelpers: Auto-saving content packages took 0.051
+[2026.09.29-07.45.39:592][838]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2804.126953
+[2026.09.29-07.45.40:591][841]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.29-07.45.40:591][841]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2804.793213, Update Interval: 359.630127
+[2026.09.29-07.52.19:971][ 39]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3204.508057
+[2026.09.29-07.52.20:971][ 42]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.29-07.52.20:971][ 42]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3205.175293, Update Interval: 351.549438
+[2026.09.29-07.58.56:674][229]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3601.206543
+[2026.09.29-07.58.57:674][232]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.29-07.58.57:674][232]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3601.873535, Update Interval: 315.886719
+[2026.09.29-08.00.50:566][571]LogDerivedDataCache: C:/Users/karras-3-local/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.09.29-08.01.26:001][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.29-08.01.26:038][ 37]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2026.09.29-08.01.26:038][ 37]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic]
+[2026.09.29-08.01.26:054][ 37]LogSavePackage: Moving output files for package: /Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic
+[2026.09.29-08.01.26:054][ 37]LogSavePackage: Moving '../../../../../../Projects/SolarVault/SolarVault/Saved/MarbleOrb_DefaultMaterial_Occlus4E26488149E8920E49E8D8B3BC4A8BFD.tmp' to '../../../../../../Projects/SolarVault/SolarVault/Content/Assets/MarbleBall/MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic.uasset'
+[2026.09.29-08.01.26:056][ 37]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_Normal] ([1] browsable assets)...
+[2026.09.29-08.01.26:056][ 37]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_Normal]
+[2026.09.29-08.01.26:072][ 37]LogSavePackage: Moving output files for package: /Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_Normal
+[2026.09.29-08.01.26:072][ 37]LogSavePackage: Moving '../../../../../../Projects/SolarVault/SolarVault/Saved/MarbleOrb_DefaultMaterial_NormalD1F4FEC840E56DAD7BBD909B251E812D.tmp' to '../../../../../../Projects/SolarVault/SolarVault/Content/Assets/MarbleBall/MarbleOrb_DefaultMaterial_Normal.uasset'
+[2026.09.29-08.01.26:074][ 37]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_BaseColor] ([1] browsable assets)...
+[2026.09.29-08.01.26:074][ 37]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_BaseColor]
+[2026.09.29-08.01.26:093][ 37]LogSavePackage: Moving output files for package: /Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_BaseColor
+[2026.09.29-08.01.26:093][ 37]LogSavePackage: Moving '../../../../../../Projects/SolarVault/SolarVault/Saved/MarbleOrb_DefaultMaterial_BaseCoD3B2799C4B521089B93EA9B7F20F0995.tmp' to '../../../../../../Projects/SolarVault/SolarVault/Content/Assets/MarbleBall/MarbleOrb_DefaultMaterial_BaseColor.uasset'
+[2026.09.29-08.01.26:104][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.222 ms (total: 602.112 ms)
+[2026.09.29-08.01.26:151][ 37]LogContentValidation: Display: Starting to validate 3 assets
+[2026.09.29-08.01.26:151][ 37]LogContentValidation: Enabled validators:
+[2026.09.29-08.01.26:151][ 37]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.29-08.01.26:151][ 37]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.29-08.01.26:151][ 37]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.29-08.01.26:151][ 37]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.29-08.01.26:151][ 37]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.29-08.01.26:151][ 37]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.29-08.01.26:151][ 37]AssetCheck: /Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_OcclusionRoughnessMetallic Validating asset
+[2026.09.29-08.01.26:153][ 37]AssetCheck: /Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_Normal Validating asset
+[2026.09.29-08.01.26:153][ 37]AssetCheck: /Game/Assets/MarbleBall/MarbleOrb_DefaultMaterial_BaseColor Validating asset
+[2026.09.29-08.01.26:198][ 37]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Projects/SolarVault/SolarVault/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.29-08.01.39:484][360]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=130.240.100.44:49916, Sequence=0
+[2026.09.29-08.01.46:281][381]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=130.240.100.41:63549, Sequence=0
+[2026.09.29-08.01.46:281][381]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=130.240.100.41:63549, Sequence=0
+[2026.09.29-08.01.46:858][382]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=130.240.100.41:63549, Sequence=0
+[2026.09.29-08.01.46:916][382]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=130.240.100.41:63549, Sequence=0
