@@ -34,7 +34,7 @@ class ASunManager : AActor{
         float x = centerX + radius * Math::Cos(angle);
         float y = centerY + radius * Math::Sin(angle);
         
-        DirLight.SetActorLocation(FVector(-x,-y,1000));
+        DirLight.SetActorLocation(FVector(-x,-y,4000));
 
         FRotator rotation = FRotator(-32,Math::Atan2(y-centerY,x-centerX)*57.5,690);
         DirLight.SetActorRotation(rotation);
@@ -54,7 +54,7 @@ class ASunManager : AActor{
 
         FRotator rotation = FRotator(-32,0,690);
         DirLight.SetActorRotation(rotation);
-
+        Spin(1);
 
     }
 
