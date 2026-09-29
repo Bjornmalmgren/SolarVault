@@ -73,3 +73,5 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+/SolarVault/Saved/Logs
+/SolarVault/Saved/Logs
