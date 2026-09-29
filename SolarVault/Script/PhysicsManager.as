@@ -1,8 +1,10 @@
 class APhysicsManager : AActor{
     
-    float32 GrabDistance = 200;
+    float32 GrabDistance = 300;
+    float GrabHeightOffset;
+    FVector GrabWorldPos;
+    FVector DragDirection;
 
-    
     ACharacter Player;
     bool Grabbed = false;
     UFUNCTION(BlueprintOverride)
@@ -24,36 +26,30 @@ class APhysicsManager : AActor{
     UFUNCTION()
     void Grab(UPhysicsHandleComponent PhysicsHandle){
         if(Grabbed){
-            Release();
+
             return;
         }
         Grabbed = true;
 
-        TArray<ASunSphere> SunSphers;
-        GetAllActorsOfClass(ASunSphere, SunSphers);
-        
-        
-        
-        FVector Start = Player.GetActorLocation();
-        FVector End = SunSphers[0].ActorLocation;
-        FHitResult HitResult;
-        FCollisionQueryParams Traceparams(FName("Trace"), false, this);
-        bool bHit = System::LineTraceSingleByChannel(HitResult,Start,End,ECollisionChannel::ECC_Visibility,Traceparams);
-        //Print(""+HitResult.Distance);
+        APlayerController PC = Cast<APlayerController>(Player.Controller);
 
-        if(HitResult.Distance < GrabDistance){
-            //grab
-            TArray<UActorComponent> children;
-            SunSphers[0].GetAllComponents(UStaticMeshComponent,children);
-            UPrimitiveComponent PhyHandler = Cast<UPrimitiveComponent>(children[0]);
-            
+        FVector Loc, Dir;
+        PC.DeprojectMousePositionToWorld(Loc, Dir);
 
-            Player.GetComponentByClass(UPhysicsHandleComponent).GrabComponentAtLocation(PhyHandler,n"Mesh",children[0].GetOwner().ActorLocation);
-        }
+
+        FVector BallPos = GetActorLocation();
+        GrabWorldPos = Math::LinePlaneIntersection(
+            Loc,
+            Loc + Dir * 1000.0f,
+            BallPos,
+            FVector(0, 0, 1)
+        );
+
+
     }
     UFUNCTION()
     void Release(){
-        Player.GetComponentByClass(UPhysicsHandleComponent).ReleaseComponent();
+
         Grabbed = false;
     }
 
@@ -62,10 +58,25 @@ class APhysicsManager : AActor{
     {
         if (Grabbed)
         {
-            FVector Start = Player.GetActorLocation();
-            FVector End = Start + Player.GetActorForwardVector() * GrabDistance;
-            //Print(""+End);
-            Player.GetComponentByClass(UPhysicsHandleComponent).SetTargetLocation(End);
+            APlayerController PC = Cast<APlayerController>(Player.Controller);
+            FVector Loc, Dir;
+            PC.DeprojectMousePositionToWorld(Loc, Dir);
+
+  
+            FVector CurrentWorld = Math::LinePlaneIntersection(
+                Loc,
+                Loc + Dir * 1000.0f,
+                GrabWorldPos,
+                FVector(0, 0, 1)
+            );
+
+            DragDirection = CurrentWorld - GrabWorldPos;
+            TArray<ASunSphere> SunSphers;
+            GetAllActorsOfClass(ASunSphere, SunSphers);
+            TArray<USphereComponent> sphere;
+            SunSphers[0].SceneRoot.SetPhysicsLinearVelocity(FVector(0,0,0));
+            SunSphers[0].SceneRoot.AddImpulse(DragDirection * 50);
+
         }
     }
 }

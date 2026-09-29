@@ -9,7 +9,7 @@ class ASunSphereManager :AActor{
     void BeginPlay()
     {
 
-        SunSphere = SpawnActor(sphere,FVector(100,0,400), FRotator::ZeroRotator,NAME_None);
+        SunSphere = SpawnActor(sphere,FVector(390.0,-30.0,100.0), FRotator::ZeroRotator,NAME_None);
     }
 
     UFUNCTION(BlueprintOverride)
@@ -20,7 +20,7 @@ class ASunSphereManager :AActor{
             DestorySphere.Broadcast();
             //destoy and respawn
             SunSphere.DestroyActor();
-            SunSphere = SpawnActor(sphere,FVector(100,0,400), FRotator::ZeroRotator,NAME_None);
+            SunSphere = SpawnActor(sphere,FVector(390.0,-30.0,100.0), FRotator::ZeroRotator,NAME_None);
         }
     }
 }

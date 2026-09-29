@@ -22,7 +22,7 @@ class ASunSphere : AActor{
     }
 
     bool CheckLineOfSight(){
-        //center
+
         TArray<FVector> bounds;
         bounds.Add(FVector(0,0,0));
         bounds.Add(FVector(Mesh.BoundsExtent.X,0,0));
@@ -45,7 +45,7 @@ class ASunSphere : AActor{
             bool bHit = System::LineTraceSingleByChannel(HitResult,Start,End,ECollisionChannel::ECC_Visibility,Traceparams);
             hits.Add(bHit);
             //FLinearColor color = bHit ? FLinearColor::Red : FLinearColor::Green;
-            //System::DrawDebugLine(Start, End,color,5,2);
+            //System::DrawDebugLine(Start, End,color,1,1);
         }
         
         
