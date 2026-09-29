@@ -8155,3 +8155,84 @@ Script Stack (0 frames) :
 [2026.09.29-13.11.26:217][495]119482_BallExplosion_MessageLog: System compile status unknown.
 [2026.09.29-13.11.26:646][519]LogNiagara: Compiling System NiagaraSystem /Game/Assets/VFX/BallExplosion/BallExplosion.BallExplosion took 0.503917 sec (time since issued).
 [2026.09.29-13.11.28:218][607]119482_BallExplosion_MessageLog: System successfully compiled.
+[2026.09.29-13.11.57:745][430]Angelscript: preprocessing took 0.262 ms
+[2026.09.29-13.11.57:745][430]Angelscript: script compilation stage1 and stage2 took 0.382 ms
+[2026.09.29-13.11.57:745][430]Angelscript: script reload reference replacement took 0.044 ms
+[2026.09.29-13.11.57:745][430]Angelscript: script compilation class layouting took 0.040 ms
+[2026.09.29-13.11.57:745][430]Angelscript: Compiling (code only): PhysicsManager
+[2026.09.29-13.11.57:745][430]Angelscript: Compiling (code only): SunManager
+[2026.09.29-13.11.57:745][430]Angelscript: Compiling (code only): SunSphere
+[2026.09.29-13.11.57:747][430]Angelscript: script compilation stage3 took 1.176 ms
+[2026.09.29-13.11.57:747][430]Angelscript: script compilation stage4 took 0.011 ms
+[2026.09.29-13.11.57:748][430]Angelscript: script compilation total took 1.685 ms
+[2026.09.29-13.11.57:748][430]Angelscript: class generator analysis took 0.110 ms
+[2026.09.29-13.11.57:748][430]Angelscript: new module swap-in took 0.008 ms
+[2026.09.29-13.11.57:748][430]Angelscript: Soft Reload: APhysicsManager
+[2026.09.29-13.11.57:748][430]Angelscript: Soft Reload: ASunManager
+[2026.09.29-13.11.57:748][430]Angelscript: Soft Reload: ASunSphere
+[2026.09.29-13.11.57:748][430]Angelscript: class generator reload took 0.317 ms
+[2026.09.29-13.11.57:748][430]Angelscript: post soft reload took 0.004 ms
+[2026.09.29-13.11.57:748][430]Angelscript: old module cleanup took 0.170 ms
+[2026.09.29-13.11.57:748][430]Angelscript: update module cache took 0.000 ms
+[2026.09.29-13.11.57:749][430]Angelscript: ==script reload total == took 28.895 ms
+[2026.09.29-13.11.58:030][431]Angelscript: preprocessing took 0.252 ms
+[2026.09.29-13.11.58:031][431]Angelscript: script compilation stage1 and stage2 took 0.352 ms
+[2026.09.29-13.11.58:031][431]Angelscript: script reload reference replacement took 0.038 ms
+[2026.09.29-13.11.58:031][431]Angelscript: script compilation class layouting took 0.037 ms
+[2026.09.29-13.11.58:031][431]Angelscript: Compiling (code only): PhysicsManager
+[2026.09.29-13.11.58:031][431]Angelscript: Compiling (code only): SunManager
+[2026.09.29-13.11.58:031][431]Angelscript: Compiling (code only): SunSphere
+[2026.09.29-13.11.58:032][431]Angelscript: script compilation stage3 took 0.933 ms
+[2026.09.29-13.11.58:032][431]Angelscript: script compilation stage4 took 0.011 ms
+[2026.09.29-13.11.58:032][431]Angelscript: script compilation total took 1.420 ms
+[2026.09.29-13.11.58:032][431]Angelscript: class generator analysis took 0.102 ms
+[2026.09.29-13.11.58:032][431]Angelscript: new module swap-in took 0.009 ms
+[2026.09.29-13.11.58:032][431]Angelscript: Soft Reload: APhysicsManager
+[2026.09.29-13.11.58:032][431]Angelscript: Soft Reload: ASunManager
+[2026.09.29-13.11.58:032][431]Angelscript: Soft Reload: ASunSphere
+[2026.09.29-13.11.58:032][431]Angelscript: class generator reload took 0.282 ms
+[2026.09.29-13.11.58:032][431]Angelscript: post soft reload took 0.004 ms
+[2026.09.29-13.11.58:032][431]Angelscript: old module cleanup took 0.109 ms
+[2026.09.29-13.11.58:032][431]Angelscript: update module cache took 0.000 ms
+[2026.09.29-13.11.58:032][431]Angelscript: ==script reload total == took 22.506 ms
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: ================================================
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Total job queries 2 994, among them cache hits 1 169 (39.04%), DDC hits 967 (32.30%), Duplicates 252 (8.42%)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Tracking 1 573 distinct input hashes that result in 1 018 distinct outputs (64.72%)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: RAM used: 12,08 MiB of 3,20 GiB budget. Usage: 0.37%
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Shaders Compiled: 606
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Jobs assigned 606, completed 606 (100%)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Average time worker was idle: 155.70 s
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Time job spent in pending queue: average 0.47 s, longest 6.32 s
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Job execution time: average 0.89 s, max 6.79 s
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Job life time (pending + execution): average 1.36 s, max 7.38
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Shader code size: total 7,846 MiB, numShaders 615, average 13,063 KiB, min 1,167 KiB, max 54,776 KiB
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 89.85 s
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.82%
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Jobs were issued in 516 batches (only local compilation was used), average 1.17 jobs/batch
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Average processing rate: 6.74 jobs/sec
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Total thread time: 187,352 s
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Total thread preprocess time: 33,11 s
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Percentage time preprocessing: 17.67%
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Effective parallelization: 2.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.173767
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 1.63 sec, max 1.63 sec, min 1.63 sec)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   31 times, average 1.10 sec, max 2.22 sec, min 0.48 sec)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    7 times, average 0.67 sec, max 1.27 sec, min 0.41 sec)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS (compiled    7 times, average 0.56 sec, max 0.83 sec, min 0.41 sec)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkPS (compiled   17 times, average 0.51 sec, max 0.97 sec, min 0.31 sec)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display:                                             FDebugViewModePS - 18.19% of total time (compiled   31 times, average 1.10 sec, max 2.22 sec, min 0.48 sec)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.47% of total time (compiled   67 times, average 0.43 sec, max 0.69 sec, min 0.25 sec)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display:                                               FNiagaraShader - 14.95% of total time (compiled  271 times, average 0.10 sec, max 1.00 sec, min 0.03 sec)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.43% of total time (compiled   49 times, average 0.36 sec, max 0.77 sec, min 0.23 sec)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display:                                                 FLumenCardPS - 7.63% of total time (compiled   43 times, average 0.33 sec, max 0.53 sec, min 0.24 sec)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: === Material stats ===
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Materials Translated:    317
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Material Translation Only: 0.08 s (50%)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: Material Cache Hits: 26 (8%)
+[2026.09.29-13.12.04:006][449]LogShaderCompilers: Display: ================================================
